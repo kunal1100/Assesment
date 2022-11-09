@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigationar{
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.article{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.menu{
+    width: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.heading{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 30px;
+}
+.cardimg{
+    width: 100px;
+}
+.cardheading{
+    font-size: 28px;
+}
+.carddesc{
+    font-size: 18px;
+}
+.cards{
+    display: flex;
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+.card1{
+    background-image: linear-gradient(#FF6FD3, #358EFF, #FFE035);
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 5px 20px black;
+}
+.card2{
+    background-image: linear-gradient(#FF6FD3, #358EFF, #FFE035);
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    box-shadow: 10px 5px 20px black;
+}
+.card3{
+    background-image: linear-gradient(#FF6FD3, #358EFF, #FFE035);
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    box-shadow: 10px 5px 20px black;
+}
+.footer{
+    height: 100px;
+    background-color: lightgray;
+    color: black;
+    font-size: 42px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 580px){
+    .navigationar{
+        width: 580px;
+        height: 100px;
+        height: 75px;
+        align-items: center;
+        display: block;
+        justify-content:space-between;
+        background-color: black;
+    }
+    .article{
+        font-size: 38px;
+        font-weight: bold;
+        color: white;
+    }
+    .menu{
+        margin-top: 30px;
+        margin-left: 35px;
+        width: 30%;
+        color: white;
+        display:list-item;
+    }
+    .button{
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 42px;
+        font-weight: bold;
+        margin-top: 230px;
+        margin-left: 100px;
+    }
+    .cardimg{
+        width: 100px;
+    }
+    .cardheading{
+        font-size: 32px;
+    }
+    .carddesc{
+        font-size: 22px;
+    }
+    .cards{
+        display:block;
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+    .card1{
+        width:350px;
+        height: 400px;
+        color: black;
+        margin-bottom: 20px;
+    }
+    .card2{
+        width:350px;
+        height: 400px;
+        color: black;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .card3{
+        width:350px;
+        height: 400px;
+        color: black;
+        margin-left: 0px;
+    }
+    .footer{
+        width: 580px;
+        height: 100px;
+        background-color: lightgray;
+        color: black;
+        font-size: 42px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
